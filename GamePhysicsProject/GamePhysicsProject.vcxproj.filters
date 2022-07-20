@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Auxiliary">
+      <UniqueIdentifier>{9015f65d-61b3-4d00-afdc-372fe6371b3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision Handling">
+      <UniqueIdentifier>{a078f2a5-1cd1-44c0-9324-db0940ca74e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision Handling\Collision Detection">
+      <UniqueIdentifier>{b44cb564-afe3-45bc-9843-954c3083103d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision Handling\Collision Detection\Colliders">
+      <UniqueIdentifier>{4f16ddfd-3cd0-4674-bc05-9c540627af0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Collision Handling\Collision Resolution">
+      <UniqueIdentifier>{8ecc14a0-83ec-4478-93fd-fe1a3db84c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Forces">
+      <UniqueIdentifier>{fa03b4f1-2e92-4857-9df2-6fbfa4f20b4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Solvers">
+      <UniqueIdentifier>{9a8d86ec-bfe4-4a42-9f9d-916a6e418ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Auxiliary">
+      <UniqueIdentifier>{56222d5e-e312-41cb-a01e-72bb3d83e7ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entities">
+      <UniqueIdentifier>{7c0a01ac-1fb9-4541-a4fc-bb1ede3c61fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision Handling">
+      <UniqueIdentifier>{a8296549-5930-4a4f-9484-c6a4fa07ffaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision Handling\Collision Detection">
+      <UniqueIdentifier>{e93ec6e9-856d-4c6f-ac13-0f910dea5d18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision Handling\Collision Detection\Colliders">
+      <UniqueIdentifier>{a22a343e-531c-4b98-803b-e1ef4ef67558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Collision Handling\Collision Resolution">
+      <UniqueIdentifier>{c1a459d3-5650-44fc-8ab2-6397ba818c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Forces">
+      <UniqueIdentifier>{1b6ef8e3-26d8-4d9e-b34c-4fc7c98093a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entities">
+      <UniqueIdentifier>{bc199d79-dbf7-441a-a003-63574c480d05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solvers">
+      <UniqueIdentifier>{6abad200-2882-47ba-83cd-29b1c557dcc3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PhysParameters.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Header Files\Auxiliary</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Header Files\Collision Handling\Collision Detection\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>Header Files\Collision Handling\Collision Detection\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Header Files\Collision Handling\Collision Detection\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>Header Files\Collision Handling\Collision Detection\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionData.h">
+      <Filter>Header Files\Collision Handling\Collision Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionDetector.h">
+      <Filter>Header Files\Collision Handling\Collision Detection</Filter>
+    </ClInclude>
+    <ClInclude Include="Contact.h">
+      <Filter>Header Files\Collision Handling\Collision Resolution</Filter>
+    </ClInclude>
+    <ClInclude Include="ContactResolver.h">
+      <Filter>Header Files\Collision Handling\Collision Resolution</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEntity.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceRegistry.h">
+      <Filter>Header Files\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="Gravity.h">
+      <Filter>Header Files\Forces</Filter>
+    </ClInclude>
+    <ClInclude Include="EulerSolver.h">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Solver.h">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="VerletSolver.h">
+      <Filter>Header Files\Solvers</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SegmentCollider.h">
+      <Filter>Header Files\Collision Handling\Collision Detection\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Segment.h">
+      <Filter>Header Files\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PhysParameters.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Source Files\Auxiliary</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source Files\Collision Handling\Collision Detection\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>Source Files\Collision Handling\Collision Detection\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB.cpp">
+      <Filter>Source Files\Collision Handling\Collision Detection\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionDetector.cpp">
+      <Filter>Source Files\Collision Handling\Collision Detection</Filter>
+    </ClCompile>
+    <ClCompile Include="Contact.cpp">
+      <Filter>Source Files\Collision Handling\Collision Resolution</Filter>
+    </ClCompile>
+    <ClCompile Include="ContactResolver.cpp">
+      <Filter>Source Files\Collision Handling\Collision Resolution</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEntity.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceRegistry.cpp">
+      <Filter>Source Files\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="Gravity.cpp">
+      <Filter>Source Files\Forces</Filter>
+    </ClCompile>
+    <ClCompile Include="EulerSolver.cpp">
+      <Filter>Source Files\Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="Solver.cpp">
+      <Filter>Source Files\Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="VerletSolver.cpp">
+      <Filter>Source Files\Solvers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SegmentCollider.cpp">
+      <Filter>Source Files\Collision Handling\Collision Detection\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="Segment.cpp">
+      <Filter>Source Files\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
